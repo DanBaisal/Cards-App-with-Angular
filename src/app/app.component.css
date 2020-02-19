@@ -1,3 +1,7 @@
-.card {
-    width: 350px;
+/* If you want to select app-root from inside the app component, use :host, like in the example below: */
+
+:host {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
